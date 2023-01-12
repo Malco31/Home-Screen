@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.body {
+    background: grey;
+}
+
 .icon {
     color: white;
 }
@@ -40,11 +44,12 @@
     height: 35px;
     min-width: 78px;
     text-align: center;
-    line-height: 50px;
+    line-height: 35px;
 }
 
 .sidebar .logo-details i:hover {
     background-color: #1d1b31;
+    cursor: pointer;
 }
 
 .sidebar .logo-details .logo_name{
@@ -114,10 +119,13 @@
 .home-section {
     position: relative;
     background: grey;
-    height: 100vh;
+    height: 100%;
     left: 260px;
     width: calc(100% - 260px);
     transition: all 0.5s ease;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .sidebar.close ~ .home-section {
@@ -125,24 +133,145 @@
     width: calc(100% - 78px);
 }
 
-.home-section .home-content{
-    height: 60px;
-    display: flex;
-    align-items: center;
-}
-
-.home-section .home-content .bx-menu,
-.home-section .home-content .text {
-    color: black;
-    font-size: 35px;
-}
-
-.home-section .home-content .bx-menu {
-    margin: 0 15px;
-    cursor: pointer;
-}
-
-.home-section .home-content .text {
+.home-section .home-right .home-left .text {
     font-size: 26px;
     font-weight: 600px;
 }
+
+.home-left .home-right{
+    width: 100%;
+}
+
+.split {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    left: 78px;
+    width: calc(100% - 78px);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.flexbox-container {
+    width: 300px;
+    margin: 0;
+}
+
+.flexbox-item {
+    width: 200px;
+    margin-top: 0;
+    margin-bottom: 70px;
+    margin-left: 30px;
+    border: 3px solid #333
+}
+
+.play {
+    position: relative;
+    font-size: 3em;
+    left: 140px;
+    top: 140px;
+}
+
+.def-playlist1 {
+    position: relative;
+    margin-right: 0;
+    margin-left: 105px;
+    font-size: 1.5em;
+}
+
+.flexbox-item-1 {
+    min-height: 200px;
+}
+
+.def-playlist2 {
+    position: relative;
+    margin-right: 0;
+    margin-left: 90px;
+    font-size: 1.5em;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+}
+
+.def-playlist3 {
+    position: relative;
+    margin-right: 0;
+    margin-left: 105px;
+    font-size: 1.5em;
+}
+
+.flexbox-item-3 {
+    min-height: 200px;
+}
+
+.m-recent {
+    position: relative;
+    margin-right: 0;
+    margin-left: 72px;
+    font-size: 1.5em;
+}
+
+.flexbox-item-4 {
+    min-height: 200px;
+}
+
+.t-artist {
+    position: relative;
+    margin-right: 0;
+    margin-left: 80px;
+    font-size: 1.5em;
+}
+
+.flexbox-item-5 {
+    min-height: 200px;
+    border: 5px solid #333333;
+    border-radius: 138px;
+}
+
+.leaderboard {
+    position: relative;
+    margin-right: 0;
+    margin-left: 72px;
+    font-size: 1.5em;
+}
+
+.flexbox-item-6 {
+    min-height: 300px;
+}
+
+.friend-list {
+    position: relative;
+    top: 20px;
+    left: 40px;
+    font-size: 1.2em;
+}
+
+.mini-container {
+    width: 30px;
+    margin: 0;
+}
+
+.mini-item {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    margin-right: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 3px solid #333;
+    justify-content: center;
+}
+
+.rec-play-title {
+    position: relative;
+    font-size: 1.2em;
+    top: 10px;
+}
+
+

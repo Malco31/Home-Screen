@@ -14,8 +14,9 @@
 <body>
     <div class="sidebar">
         <div class="logo-details">
-            <i class='bx bxl-spotify'></i>
-            <span class="logo_name">PlaceHolder</span>
+            <i class="bx bx-menu"></i>
+            <span class="text"></span>
+            <span class="logo_name">JukeBox</span>
         </div>
         <ul class="nav-links">
             <li>
@@ -25,7 +26,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="search.html">
                     <i class='bx bx-search'></i>
                     <span class="link_name">Search</span>
                 </a>
@@ -56,12 +57,73 @@
             </li>
         </ul>
     </div>
-    <section class = "home-section">
-        <div class="home-content">
-            <i class="bx bx-menu"></i>
-            <span class="text"></span>
-        </div>
-    </section>
+
+    
+        <section class = "home-section">
+            <div class="home-left">
+                
+                <header class="def-playlist1">Rap</header>
+                <div class="flexbox-container">
+                    <div class="flexbox-item flexbox-item-1">
+                        <i class='bx bx-play-circle play'></i>
+                    </div>
+                </div>
+
+                <header class="def-playlist2">Hip Hop</header>
+                <div class="flexbox-container">
+                    <div class="flexbox-item flexbox-item-2">
+                        <i class='bx bx-play-circle play'></i>
+                    </div>
+                </div>
+
+                <header class="def-playlist3">Pop</header>
+                <div class="flexbox-container">
+                    <div class="flexbox-item flexbox-item-3">
+                        <i class='bx bx-play-circle play'></i>
+                    </div>
+                </div>
+    
+            </div> 
+            <div class="home-right">
+                <header class="m-recent">Most Recent</header>
+    
+                <div class="flexbox-container">
+                    <div class="flexbox-item flexbox-item-4">
+                        <div class="mini-container">
+                            <div class="mini-item mini-item-1">
+                                <p class="rec-play-title">Liked Songs</p>
+                            </div>
+                        </div>
+                        <div class="mini-container">
+                            <div class="mini-item mini-item-2">
+                                
+                            </div>
+                        </div>
+                        <div class="mini-container">
+                            <div class="mini-item mini-item-3">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <header class="t-artist">Top Artist</header>
+                <div class="flexbox-container5">
+                    <div class="flexbox-item flexbox-item-5"></div>
+                </div>
+
+                <header class="leaderboard">Friend-Score</header>
+                <div class="flexbox-container">
+                    <div class="flexbox-item flexbox-item-6">
+                        <ol class="friend-list">
+                            <li><u>You 0mins</u></li>
+                        </ol>
+                    </div>
+                </div>
+    
+            </div>        
+        </section>
+
     <script>
         let sidebar = document.querySelector(".sidebar");
         let sidebarBtn = document.querySelector(".bx-menu");
@@ -70,5 +132,6 @@
             sidebar.classList.toggle("close");
         });
     </script>
+
 </body>
 </html>
