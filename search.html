@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="script.js" defer></script>
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="search.css">
 </head>
 <body>
     <div class="back-button">
@@ -13,16 +15,10 @@
             <i class='bx bx-arrow-back'></i>
         </a>
     </div>
-    <!-- <form action="">
-        <label for="fname">Search...</label>
-        <input class="searchbar" type="text" id="sName">
-    </form> -->
-    <!-- <div class="wrapper">
-        <input class="search" placeholder="Search" type="text" >
-    </div> -->
     <div class="search">
-        <input class="search-text" type="text" name="" placeholder="Search...">
-        <a class="search-btn" href="#"></a>
+        <input id="search-input" class="search-text" type="text" name="" placeholder="Search..." value="">
+        <button id="search-btn" class="search-btn"><i class='bx bx-search'></i></button>
     </div>
 </body>
 </html>
+

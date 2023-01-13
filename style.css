@@ -170,12 +170,20 @@
     border: 3px solid #333
 }
 
-.play {
-    position: relative;
-    font-size: 3em;
-    left: 140px;
-    top: 140px;
+.flexbox-item img{
+    width: 100%;
+    margin: 0;
 }
+
+/* .play {
+    position: absolute;
+    font-size: 3em;
+    left: 240px;
+    top: 180px;
+    color: purple;
+    background-color: black;
+    border-radius: 50%;
+} */
 
 .def-playlist1 {
     position: relative;
@@ -186,6 +194,7 @@
 
 .flexbox-item-1 {
     min-height: 200px;
+    background-image: url("amilli");
 }
 
 .def-playlist2 {
