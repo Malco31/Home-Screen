@@ -26,157 +26,183 @@ const music_list = [
         img : 'images/Metro-Boomin.webp',
         name : 'Around Me',
         artist : 'Don Toliver',
-        music : 'music/Around Me.mp3'
+        music : 'music/Around Me.mp3',
+        genre: 'rap',
     },
     {
         img : 'images/Mark_Morrison_Return_Of_the_Mack_Album_Cover.jpeg',
         name : 'Return of The Mack',
         artist : 'Mack Morrison',
-        music : 'music/Returnofthemack.mp3'
+        music : 'music/Returnofthemack.mp3',
+        genre: 'r&b',
     },
     {
         img : 'images/CasinoJizzle.jpeg',
         name : '40 Bars (Freestyle)',
         artist : 'Casino Jizzle',
-        music : 'music/40 Bars (Freestyle).mp3'
+        music : 'music/40 Bars (Freestyle).mp3',
+        genre: 'rap',
     },
     {
         img : 'images/BigScarr.jpeg',
         name : 'I Would Keep Goin',
         artist : 'Big Scarr',
-        music : 'music/Big Scarr - I Would Keep Goin (AUDIO).mp3'
+        music : 'music/Big Scarr - I Would Keep Goin (AUDIO).mp3',
+        genre: 'rap',
     },
     {
         img : 'images/ESTGEECover.jpeg',
         name : 'Lick Back Remix',
         artist : 'EST Gee',
-        music : 'music/EST Gee - Lick Back Remix (feat. Future, Young Thug) [Official Audio].mp3'
+        music : 'music/EST Gee - Lick Back Remix (feat. Future, Young Thug) [Official Audio].mp3',
+        genre: 'rap',
     },
     {
         img : 'images/LilDouble0.jpeg',
         name : 'HMP',
         artist : 'Lil Double O',
-        music : 'music/Lil Double 0 - HMP (Official Audio).mp3'
+        music : 'music/Lil Double 0 - HMP (Official Audio).mp3',
+        genre: 'rap',
     },
     {
         img : 'images/JID-The-Forever-Story.webp',
         name : 'Kody Blu 31',
         artist : 'J.I.D',
-        music : 'music/JID - Kody Blu 31 (Official Audio).mp3'
+        music : 'music/JID - Kody Blu 31 (Official Audio).mp3',
+        genre: 'rap',
     },
     {
         img : 'images/RemembertheTime.png',
         name : 'Remember the Time',
         artist : 'Michael Jackson',
-        music : 'music/Michael Jackson - Remember The Time (Official Video).mp3'
+        music : 'music/Michael Jackson - Remember The Time (Official Video).mp3',
+        genre: 'r&b',
     },
     {
         img : 'images/Metro-Boomin.webp',
         name : 'Too Many Nights',
         artist : 'Don Toliver',
-        music : 'music/Too Many Nights.mp3'
+        music : 'music/Too Many Nights.mp3',
+        genre: 'rap',
     },
     {
         img : 'images/Metro-Boomin.webp',
         name : 'Metro Spider',
         artist : 'Young Thug',
-        music : 'music/Metro Spider.mp3'
+        music : 'music/Metro Spider.mp3',
+        genre: 'rap',
     },
     {
         img : 'images/Allfallsdown.jpeg',
         name : 'All Falls Down',
         artist : 'Kanye West',
-        music : 'music/All Falls Down.mp3'
+        music : 'music/All Falls Down.mp3',
+        genre: 'rap',
     },
     {
         img : 'images/SnowonDaBluff.jpeg',
         name : 'Snow on Tha Bluff',
         artist : 'J.Cole',
-        music : 'music/J. Cole - Snow On Tha Bluff (Official Audio).mp3'
+        music : 'music/J. Cole - Snow On Tha Bluff (Official Audio).mp3',
+        genre: 'rap',
     },
     {
         img : 'images/JID-The-Forever-Story.webp',
         name : '2007',
         artist : 'J.I.D',
-        music : 'music/2007.mp3'
+        music : 'music/2007.mp3',
+        genre: 'rap',
     },
     {
         img : 'images/JID-The-Forever-Story.webp',
         name : 'Sistanem',
         artist : 'J.I.D',
-        music : 'music/JID - Sistanem (Official Audio).mp3'
+        music : 'music/JID - Sistanem (Official Audio).mp3',
+        genre: 'rap',
     },
     {
         img : 'images/amilli.jpg',
         name : 'A Milli',
         artist : 'Lil Wayne',
-        music : 'music/A Milli.mp3'
+        music : 'music/A Milli.mp3',
+        genre: 'rap',
     },
     {
         img : 'images/j.cole.jpg',
         name : 'No Role Modelz',
         artist : 'J.Cole',
-        music : 'music/No Role Modelz.mp3'
+        music : 'music/No Role Modelz.mp3',
+        genre: 'rap',
     },
     {
         img : 'images/spanishsong.jpg',
         name : 'Fue Mejor',
         artist : 'Kali Uchis',
-        music : 'music/Kali Uchis - Fue Mejor ft.SZA (Lyrics).mp3'
+        music : 'music/Kali Uchis - Fue Mejor ft.SZA (Lyrics).mp3',
+        genre: 'r&b',
     },
     {
         img : 'images/lilbaby.png',
         name : 'Pop Out',
         artist : 'Lil Baby',
-        music : 'music/Lil Baby, Nardo Wick - Pop Out (Lyric Video).mp3'
+        music : 'music/Lil Baby, Nardo Wick - Pop Out (Lyric Video).mp3',
+        genre: 'rap',
     },
     {
         img : 'images/carter5.jpg',
         name : 'Mona Lisa',
         artist : 'Lil Wayne',
-        music : 'music/Lil Wayne - Mona Lisa ft. Kendrick Lamar.mp3'
+        music : 'music/Lil Wayne - Mona Lisa ft. Kendrick Lamar.mp3',
+        genre: 'rap',
     },
     {
         img : 'images/mariahthescientist.jpg',
         name : 'Brain',
         artist : 'Mariah the Scientist',
-        music : 'music/Mariah the Scientist - Brain (Audio).mp3'
+        music : 'music/Mariah the Scientist - Brain (Audio).mp3',
+        genre: 'r&b',
     },
     {
         img : 'images/gospel.jpg',
         name : 'The Best in Me',
         artist : 'Marvin Sapp',
-        music : 'music/Marvin Sapp- The Best In Me (LyricsSong).mp3'
+        music : 'music/Marvin Sapp- The Best In Me (LyricsSong).mp3',
+        genre: 'gospel',
     },
     {
         img : 'images/moneytrees.jpg',
         name : 'Money Trees',
         artist : 'Kendrick Lamar',
-        music : 'music/Money Trees.mp3'
+        music : 'music/Money Trees.mp3',
+        genre: 'rap',
     },
     {
         img : 'images/popsmoke.jpg',
         name : 'Got it on Me',
         artist : 'Pop Smoke',
-        music : 'music/POP SMOKE - GOT IT ON ME (OFFICIAL VIDEO).mp3'
+        music : 'music/POP SMOKE - GOT IT ON ME (OFFICIAL VIDEO).mp3',
+        genre: 'rap',
     },
     {
         img : 'images/youngboy.jpg',
         name : 'Umm Hmm',
         artist : 'NBA Youngboy',
-        music : 'music/NBA Youngboy - Umm Hmm [Official Audio].mp3'
+        music : 'music/NBA Youngboy - Umm Hmm [Official Audio].mp3',
+        genre: 'rap',
     },
     {
         img : 'images/TooHotCover.jpeg',
         name : 'Too Hot',
         artist : 'NLE Choppa',
-        music : 'music/NLE Choppa - Too Hot (feat. Moneybagg Yo) [Official Music Video].mp3'
+        music : 'music/NLE Choppa - Too Hot (feat. Moneybagg Yo) [Official Music Video].mp3',
+        genre: 'rap',
     },
     {
         img : 'images/sZa.jpg',
         name : 'Kill Bill',
         artist : 'SZA',
-        music : 'music/SZA - Kill Bill (Audio).mp3'
+        music : 'music/SZA - Kill Bill (Audio).mp3',
+        genre: 'pop',
     },
 ];
 
@@ -192,33 +218,15 @@ function loadTrack(track_index){
     track_art.style.backgroundImage = "url(" + music_list[track_index].img + ")";
     track_name.textContent = music_list[track_index].name;
     track_artist.textContent = music_list[track_index].artist;
-    now_playing.textContent = "Playing music " + (track_index + 1) + " of " + music_list.length;
+    now_playing.textContent = "Song " + (track_index + 1) + " of " + music_list.length;
 
     updateTimer = setInterval(setUpdate, 1000);
 
     curr_track.addEventListener('ended', nextTrack);
-    random_bg_color();
+    
 }
 
-function random_bg_color(){
-    let hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e'];
-    let a;
 
-    function populate(a){
-        for(let i=0; i<6; i++){
-            let x = Math.round(Math.random() * 14);
-            let y = hex[x];
-            a += y;
-        }
-        return a;
-    }
-    let Color1 = populate('#');
-    let Color2 = populate('#');
-    var angle = 'to right';
-
-    let gradient = 'linear-gradient(' + angle + ',' + Color1 + ', ' + Color2 + ")";
-    document.body.style.background = gradient;
-}
 function reset(){
     curr_time.textContent = "00:00";
     total_duration.textContent = "00:00";
@@ -306,29 +314,38 @@ function setUpdate(){
     }
 }
 
-// document.addEventListener("keydown", function(event) {
-//     if (event.code === "Space" || event.code === "F8") {
-//         if(curr_track.paused){
-//             curr_track.play();
-//             playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
-//         }else{
-//             curr_track.pause();
-//             playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';
-//         }
-//     }
-// })
 
-const data = [
-    { name: 'John', age: 30, group: 'A' },
-    { name: 'Mary', age: 25, group: 'B' },
-    { name: 'Mike', age: 20, group: 'A' },
-    { name: 'Jane', age: 15, group: 'C' },
-    { name: 'Peter', age: 25, group: 'B' }
-  ];
-  
-  // while loop
-let len = data.length, count = 0;
-while(len--) {
-    console.log(data[count]);
-    count++;
+
+const searchInput = document.getElementById("search-input");
+const music_listEl = document.getElementById("music-list");
+
+searchInput.addEventListener("input", event => {
+  const searchValue = event.target.value.toLowerCase();
+  let filteredMusic = music_list.filter(
+    music =>
+      music.name.toLowerCase().includes(searchValue) ||
+      music.artist.toLowerCase().includes(searchValue) ||
+      music.genre.toLowerCase().includes(searchValue)
+  );
+  displayMusic(filteredMusic);
+});
+
+function displayMusic(musicArr) {
+  music_listEl.innerHTML = "";
+  musicArr.forEach(music => {
+    const musicEl = document.createElement("li");
+    musicEl.innerHTML = `
+      <img src="${music.img}">
+      <div>
+        <h2>${music.name}</h2>
+        <p>${music.artist}</p>
+      </div>
+    `;
+    music_listEl.appendChild(musicEl);
+  });
 }
+
+displayMusic(music_list);
+
+
+console.log(music_list)

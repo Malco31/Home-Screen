@@ -1,47 +1,219 @@
-.back-button {
-    color: black;
-    font-size: 2.5em;
+body {
+    background-color: grey;
 }
 
-
-.back-button a{
-    color: black !important;
-}
-
-.search {
+/* BACK BUTTON */
+.back-btn {
     position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #2f3640;
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.search-btn {
-    color: #e84118;
-    float: right;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #2f3640;
+    top: 80px;
+    left: 45px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.search-text {
-    border: none;
-    background: none;
-    outline: none;
-    float: left;
-    padding: 0;
+.back-btn a {
+    text-decoration: none;
     color: white;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 240px;
-    text-align: center;
+    font-size: 24px;
 }
+
+.back-btn a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.back-btn i {
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+}
+
+.back-btn i:hover {
+    background-color: white;
+}
+
+/* SEARCH BAR */
+  #search-input {
+    position: relative;
+    top: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    width: 500px; /* adjust as needed */
+    height: 100px;
+    font-size: 2em;
+    margin: 0 auto; /* centers the element horizontally */
+    display: block; /* displays the element as a block-level element */
+    background-color: black;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+
+  
+  #music-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    top: 100px;
+    position: relative;
+  }
+  
+  #music-list li {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  #music-list img {
+    width: 100px;
+    height: 100px;
+  }
+
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+    height: 20%;
+    color: white;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li {
+    padding: 10px;
+}
+
+.now-playing {
+    display: flex;
+    justify-content: center;
+}
+
+.track-art {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.track-art img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */max-width: 100%;
+}
+
+.track-name {
+    position: relative;
+    left: 140px;
+    bottom: 50px;
+}
+
+.track-artist {
+    position: relative;
+    left: 140px;
+    bottom: 30px;
+}
+
+.slider_container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;
+}
+
+.slider_container2 {
+    display: flex;
+    justify-content:right;
+    position: relative;
+    bottom: 100px;
+}
+
+.now-playing {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: 60px;
+    cursor: pointer;
+}
+
+.active{
+    color: black;
+}
+
+.random-track i{
+    background-color: gray;
+    color: blue;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    width: 100%;
+}
+
+.prev-track i{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    width: 100%;
+}
+
+.playpause-track i{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    width: 100%;
+}
+
+.next-track i{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    width: 100%;
+}
+
+.repeat-track i{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
