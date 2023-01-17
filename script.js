@@ -212,7 +212,7 @@ const music_list = [
         genre: 'pop/r&b',
     },
     {
-        img : 'images/love_galore.png',
+        img : 'images/love_galore2.jpg',
         name : 'Love Galore',
         artist : 'SZA',
         music : 'music/love_galore.mp3',
