@@ -1,0 +1,113 @@
+body {
+    background-color: gray;
+}
+
+/* BACK BUTTON */
+.back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.back-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.back-btn a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.back-btn i {
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+}
+
+.back-btn i:hover {
+    background-color: white;
+}
+
+.playlist-art {
+    position: relative;
+    top: 80px;
+    left: 80px;
+    width: 250px;
+    height: 250px;
+    border: white 3px solid;
+}
+
+.playlist-art img {
+    width: 100%;
+    
+}
+
+.playlist-title {
+    position: relative;
+    font-size: 3.5em;
+    top: -160px;
+    left: 370px;
+}
+
+.playlist-songs {
+    position: relative;
+    font-size: 1.5em;
+    top: -160px;
+    left: 380px;
+}
+
+.bx-play-circle {
+    position: relative;
+    font-size: 10em;
+    left: 500px;
+    top: -320px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+
+  
+  #music-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    top: 100px;
+    position: relative;
+    margin-bottom: 250px;
+  }
+  
+  #music-list li {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0px;
+    border-top: 1px solid #ccc;
+  }
+
+  #music-list img {
+    width: 150px;
+    height: 150px;
+    top: 50px;
+    position: relative;
+    border: 3px solid #333;
+  }
+
+  #music-list h2 {
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+  }
+
+  #music-list p {
+    position: relative;
+    left: 200px;
+    bottom: 80px;
+    font-size: 1.5em;
+  }

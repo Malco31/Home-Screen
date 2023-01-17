@@ -288,20 +288,7 @@ const music_list = [
         music : 'music/a-place-with-no-name.mp3',
         genre: 'pop music',
     },
-    {
-        img : 'images/xscape.jpg',
-        name : 'Chicago',
-        artist : 'Michael Jackson',
-        music : 'music/chicago.mp3',
-        genre: 'pop music',
-    },
-    {
-        img : 'images/beat-it.jpeg',
-        name : 'Beat It',
-        artist : 'Michael Jackson',
-        music : 'music/beat-it.mp3',
-        genre: 'rock music',
-    },
+    
 ];
 
 const liked_songs = [
@@ -450,5 +437,6 @@ function displayMusic(musicArr) {
 }
 
 displayMusic(music_list);
+
 
 

@@ -246,5 +246,16 @@ body {
     width: 100%;
 }
 
+.like-btn {
+    display: flex;
+    justify-content:right;
+    position: relative;
+    bottom: 150px;
+    float: right;
+    right: 250px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
 
 
