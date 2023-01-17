@@ -217,7 +217,20 @@ const music_list = [
         artist : 'SZA',
         music : 'music/love_galore.mp3',
         genre: 'pop/r&b',
-    }
+    },
+    {
+        img : 'images/dawn_fm.jpeg',
+        name : 'Out of Time',
+        artist : 'The Weeknd',
+        music : 'music/The Weeknd - Out of Time (Official Audio).mp3',
+        genre: 'pop',
+    },
+];
+
+const liked_songs = [
+    {
+
+    },
 ];
 
 loadTrack(track_index);

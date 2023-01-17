@@ -125,11 +125,11 @@ body {
 }
 
 .track-art {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     position: relative;
-    top: 30px;
-    left: 20px;
+    top: 0px;
+    left: 30px;
 }
 
 .track-art img {
@@ -141,34 +141,50 @@ body {
 .track-name {
     position: relative;
     left: 140px;
-    bottom: 50px;
+    bottom: 60px;
 }
 
 .track-artist {
     position: relative;
     left: 140px;
-    bottom: 30px;
+    bottom: 50px;
 }
 
 .slider_container {
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 40px;
+    bottom: 110px;
+    left: 525px;
+    color: black;
+    background-color: white;
+    cursor: grab;
+    width: 210px;
+    border-radius: 30px;
 }
 
 .slider_container2 {
     display: flex;
     justify-content:right;
     position: relative;
-    bottom: 100px;
+    bottom: 150px;
+    float: right;
+    right: 50px;
+    background-color: white;
+    cursor: grab;
+    width: 160px;
+    border-radius: 30px;
+}
+
+.slider_container2 i {
+    color: black;
 }
 
 .now-playing {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 50px;
+    top: 10px;
 }
 
 .buttons {
@@ -176,8 +192,9 @@ body {
     flex-direction: row;
     justify-content: center;
     position: relative;
-    bottom: 60px;
+    bottom: 110px;
     cursor: pointer;
+    font-size: 10px;
 }
 
 .active{
@@ -185,8 +202,6 @@ body {
 }
 
 .random-track i{
-    background-color: gray;
-    color: blue;
     padding: 10px;
     border-radius: 50%;
     transition: background-color 0.2s ease;
@@ -195,7 +210,6 @@ body {
 }
 
 .prev-track i{
-    background-color: gray;
     color: white;
     padding: 10px;
     border-radius: 50%;
@@ -205,17 +219,16 @@ body {
 }
 
 .playpause-track i{
-    background-color: gray;
     color: white;
     padding: 10px;
     border-radius: 50%;
     transition: background-color 0.2s ease;
     cursor: pointer;
-    width: 100%;
+    width: 10%;
+    font-size: 24px;
 }
 
 .next-track i{
-    background-color: gray;
     color: white;
     padding: 10px;
     border-radius: 50%;
@@ -225,7 +238,6 @@ body {
 }
 
 .repeat-track i{
-    background-color: gray;
     color: white;
     padding: 10px;
     border-radius: 50%;
