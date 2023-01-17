@@ -64,16 +64,35 @@ body {
     margin: 0;
     top: 100px;
     position: relative;
+    margin-bottom: 250px;
   }
   
   #music-list li {
     padding: 12px;
     border-bottom: 1px solid #ccc;
+    margin-bottom: 0px;
+    border-top: 1px solid #ccc;
   }
 
   #music-list img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    top: 50px;
+    position: relative;
+    border: 3px solid #333;
+  }
+
+  #music-list h2 {
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+  }
+
+  #music-list p {
+    position: relative;
+    left: 200px;
+    bottom: 80px;
+    font-size: 1.5em;
   }
 
 
@@ -86,7 +105,7 @@ body {
     width: 100%;
     background-color: black;
     z-index: 1;
-    height: 20%;
+    height: 15%;
     color: white;
 }
 .navbar ul {

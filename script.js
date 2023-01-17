@@ -202,8 +202,22 @@ const music_list = [
         name : 'Kill Bill',
         artist : 'SZA',
         music : 'music/SZA - Kill Bill (Audio).mp3',
-        genre: 'pop',
+        genre: 'pop/r&b',
     },
+    {
+        img : 'images/i_hate_u.png',
+        name : 'i-hate-u',
+        artist : 'SZA',
+        music : 'music/i-hate-u.mp3',
+        genre: 'pop/r&b',
+    },
+    {
+        img : 'images/love_galore.png',
+        name : 'Love Galore',
+        artist : 'SZA',
+        music : 'music/love_galore.mp3',
+        genre: 'pop/r&b',
+    }
 ];
 
 loadTrack(track_index);
@@ -348,4 +362,3 @@ function displayMusic(musicArr) {
 displayMusic(music_list);
 
 
-console.log(music_list)
